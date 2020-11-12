@@ -16,7 +16,6 @@
 /*===== Fonts =====*/
 :root {
   --body-font: 'Montserrat', sans-serif;
-
   --big-font-size: 6.25rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -126,6 +125,7 @@ img {
 @import './home';
 @import './about';
 @import './skills';
+@import './resume';
 @import './projects';
 @import './contact';
 @import './footer';

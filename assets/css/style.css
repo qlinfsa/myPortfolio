@@ -314,6 +314,66 @@ img {
   border-radius: 0.5rem;
 }
 
+.resume__container {
+  row-gap: 2rem;
+}
+
+.resume__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr max-content 1fr;
+      grid-template-columns: 1fr -webkit-max-content 1fr;
+      grid-template-columns: 1fr max-content 1fr;
+}
+
+.resume__year, .resume__title {
+  margin-bottom: 0.25rem;
+  color: var(--first-color);
+}
+
+.resume__university, .resume__description {
+  display: block;
+}
+
+.resume__year, .resume__place {
+  text-align: right;
+}
+
+.resume__time {
+  padding: 0 1rem;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.resume__rounder {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+}
+
+.resume__rounder::before {
+  content: '';
+  position: absolute;
+  -webkit-transform: translate(-4px, -4px);
+          transform: translate(-4px, -4px);
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--first-color);
+  border-radius: 50%;
+}
+
+.resume__line {
+  display: block;
+  height: 90%;
+  width: 2px;
+  background-color: var(--first-color);
+  -webkit-transform: translate(5px, -4px);
+          transform: translate(5px, -4px);
+}
+
 .portfolio {
   background-color: var(--white-color);
 }
