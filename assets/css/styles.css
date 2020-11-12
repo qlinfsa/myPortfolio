@@ -306,6 +306,10 @@ img {
 }
 .portfolio__link-name {
   color: var(--dark-color);
+  text-align: center;
+}
+.portfolio__link-name span {
+  font-weight: bold;
 }
 
 /* ===== CONTACT =====*/
