@@ -361,6 +361,11 @@ img {
 
 .portfolio__link-name {
   color: var(--dark-color);
+  text-align: center;
+}
+
+.portfolio__link-name span {
+  font-weight: bold;
 }
 
 .contact__container {
@@ -441,6 +446,9 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .bd-grid {
+    padding: 0 2rem;
+  }
   body {
     margin: 0;
   }
@@ -495,14 +503,11 @@ img {
         -ms-flex-align: center;
             align-items: center;
     text-align: initial;
-    padding: 4rem 0;
+    padding: 4rem 2rem;
   }
   .about__img {
     width: 200px;
     height: 200px;
-  }
-  .about__img img {
-    width: 165px;
   }
   .skills__container {
     -ms-grid-columns: (1fr)[2];

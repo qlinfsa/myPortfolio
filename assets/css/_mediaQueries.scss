@@ -1,4 +1,8 @@
 @media screen and(min-width: 768px) {
+  .bd-grid {
+    padding: 0 2rem;
+  }
+
   body {
     margin: 0;
   }
@@ -57,15 +61,11 @@
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
       text-align: initial;
-      padding: 4rem 0;
+      padding: 4rem 2rem;
     }
     &__img {
       width: 200px;
       height: 200px;
-
-      & img {
-        width: 165px;
-      }
     }
   }
   .skills {
