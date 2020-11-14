@@ -70,6 +70,15 @@ sr.reveal('.skills__subtitle', {});
 sr.reveal('.skills__name', { distance: '20px', delay: 50, interval: 100 });
 sr.reveal('.skills__img', { delay: 400 });
 
+/*SCROLL RESUME*/
+sr.reveal('.resume__year', { interval: 200 });
+sr.reveal('.resume__place', { delay: 50, interval: 200 });
+sr.reveal('.resume__title', { interval: 200 });
+sr.reveal('.resume__description', {
+  delay: 50,
+  interval: 200,
+});
+
 /*SCROLL PROJECTS*/
 sr.reveal('.projects__img', { interval: 200 });
 
