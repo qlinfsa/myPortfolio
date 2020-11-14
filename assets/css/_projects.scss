@@ -1,4 +1,4 @@
-.portfolio {
+.projects {
   background-color: var(--white-color);
 
   &__container {
@@ -13,7 +13,7 @@
       border-radius: 0.5rem;
     }
 
-    &:hover .portfolio__link {
+    &:hover .projects__link {
       bottom: 0;
     }
   }
