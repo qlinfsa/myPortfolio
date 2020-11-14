@@ -314,6 +314,10 @@ img {
   border-radius: 0.5rem;
 }
 
+.resume {
+  margin-bottom: 3rem;
+}
+
 .resume__container {
   row-gap: 2rem;
 }
@@ -321,9 +325,9 @@ img {
 .resume__content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr max-content 1fr;
-      grid-template-columns: 1fr -webkit-max-content 1fr;
-      grid-template-columns: 1fr max-content 1fr;
+  -ms-grid-columns: 1fr max-content 1.5fr;
+      grid-template-columns: 1fr -webkit-max-content 1.5fr;
+      grid-template-columns: 1fr max-content 1.5fr;
 }
 
 .resume__year, .resume__title {
