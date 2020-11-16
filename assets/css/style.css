@@ -451,6 +451,10 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.contact i {
+  font-size: 1.4rem;
+}
+
 .footer {
   background-color: var(--dark-color);
 }
