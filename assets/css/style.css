@@ -432,6 +432,17 @@ img {
 
 .contact__container {
   row-gap: 2rem;
+  justify-items: center;
+}
+
+.contact__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 4rem;
+          column-gap: 4rem;
+  justify-items: center;
 }
 
 .contact__subtitle {
@@ -585,14 +596,6 @@ img {
         grid-template-rows: repeat(2, 1fr);
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
-  }
-  .contact__container {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-  }
-  .contact__form {
-    width: 380px;
   }
   .footer__container {
     -ms-grid-columns: (1fr)[3];
