@@ -431,7 +431,17 @@ img {
 }
 
 .contact__container {
-  row-gap: 1rem;
+  row-gap: 2rem;
+  justify-items: center;
+}
+
+.contact__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 4rem;
+          column-gap: 4rem;
   justify-items: center;
 }
 
@@ -440,8 +450,9 @@ img {
   color: var(--first-color);
 }
 
-.contact__content {
-  margin: 0;
+.contact__text {
+  display: inline-block;
+  margin-bottom: var(--mb-2);
 }
 
 .footer {

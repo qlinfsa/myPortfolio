@@ -85,3 +85,4 @@ sr.reveal('.projects__img', { interval: 200 });
 /*SCROLL CONTACT*/
 sr.reveal('.contact__description', {});
 sr.reveal('.contact__subtitle', { delay: 300, interval: 200 });
+sr.reveal('.contact__text', { interval: 200 });
