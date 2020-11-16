@@ -314,10 +314,6 @@ img {
   border-radius: 0.5rem;
 }
 
-.resume {
-  margin-bottom: 3rem;
-}
-
 .resume__container {
   row-gap: 2rem;
 }
@@ -376,10 +372,6 @@ img {
           transform: translate(5px, -4px);
 }
 
-.projects {
-  background-color: var(--white-color);
-}
-
 .projects__container {
   justify-items: center;
   row-gap: 2rem;
@@ -428,6 +420,10 @@ img {
 
 .projects__link-name span {
   font-weight: bold;
+}
+
+.contact {
+  margin-bottom: 4rem;
 }
 
 .contact__container {
