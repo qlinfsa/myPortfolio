@@ -427,7 +427,7 @@ img {
 }
 
 .contact__container {
-  row-gap: 2rem;
+  row-gap: 1rem;
   justify-items: center;
 }
 
