@@ -206,12 +206,17 @@ img {
 
 .home {
   position: relative;
-  background-color: var(--first-color);
   overflow: hidden;
+  background: url("../img/headshot.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .home__container {
   height: calc(100vh - var(--header-height));
+  width: 100%;
   row-gap: 5rem;
 }
 
