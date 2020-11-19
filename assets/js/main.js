@@ -50,9 +50,8 @@ const home = document.querySelectorAll('.home')[0];
 home.addEventListener('mouseover', function (event) {
   const underImg = document.createElement('span');
   underImg.className = 'home__bubble';
-  console.log('mouseover', underImg);
-  underImg.style.left = event.offsetX + 'px';
-  underImg.style.right = event.offsetY + 'px';
+  underImg.style.left = 100 + event.offsetX + 'px';
+  underImg.style.top = 100 + event.offsetY + 'px';
   home.appendChild(underImg);
 });
 
