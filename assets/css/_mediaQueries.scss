@@ -50,10 +50,6 @@
       grid-template-rows: 1.7fr 1fr;
       row-gap: 0;
     }
-    &__scroll {
-      align-self: flex-end;
-      padding-bottom: var(--mb-4);
-    }
   }
 
   .about {
@@ -100,6 +96,10 @@
   .home {
     &__title {
       align-self: end;
+    }
+    &__scroll {
+      align-self: flex-end;
+      padding-bottom: var(--mb-4);
     }
   }
 }

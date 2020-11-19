@@ -537,11 +537,6 @@ img {
         grid-template-rows: 1.7fr 1fr;
     row-gap: 0;
   }
-  .home__scroll {
-    -ms-flex-item-align: end;
-        align-self: flex-end;
-    padding-bottom: var(--mb-4);
-  }
   .about__container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
@@ -586,6 +581,11 @@ img {
     -ms-flex-item-align: end;
         -ms-grid-row-align: end;
         align-self: end;
+  }
+  .home__scroll {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    padding-bottom: var(--mb-4);
   }
 }
 
