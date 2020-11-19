@@ -239,9 +239,9 @@ img {
 }
 
 .home__scroll {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  padding-bottom: var(--mb-4);
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .home__scroll-link {
@@ -536,6 +536,11 @@ img {
     -ms-grid-rows: 1.7fr 1fr;
         grid-template-rows: 1.7fr 1fr;
     row-gap: 0;
+  }
+  .home__scroll {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    padding-bottom: var(--mb-4);
   }
   .about__container {
     -ms-grid-columns: (1fr)[2];
