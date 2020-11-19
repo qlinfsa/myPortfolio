@@ -99,3 +99,14 @@
     }
   }
 }
+
+@media screen and(min-width: 1200px) {
+  .home {
+    &__scroll-link {
+      writing-mode: horizontal-tb;
+      i {
+        transform: scaleY(-1);
+      }
+    }
+  }
+}

@@ -584,4 +584,16 @@ img {
         align-self: end;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .home__scroll-link {
+    -webkit-writing-mode: horizontal-tb;
+        -ms-writing-mode: lr-tb;
+            writing-mode: horizontal-tb;
+  }
+  .home__scroll-link i {
+    -webkit-transform: scaleY(-1);
+            transform: scaleY(-1);
+  }
+}
 /*# sourceMappingURL=style.css.map */
