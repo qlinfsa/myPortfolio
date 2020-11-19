@@ -207,37 +207,26 @@ img {
 .home {
   position: relative;
   overflow: hidden;
-  background-color: var(--first-color);
-  z-index: 10;
-}
-
-.home__bubble {
-  display: block;
-  position: absolute;
-  width: 150px;
-  height: 150px;
   background: url("../img/home.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  pointer-events: none;
-  border-radius: 50%;
 }
 
 .home__container {
   height: calc(100vh - var(--header-height));
   width: 100%;
   row-gap: 5rem;
-  background-color: var(--first-color);
 }
 
 .home__title {
   -ms-flex-item-align: end;
       align-self: flex-end;
   font-size: var(--big-font-size);
-  color: var(--white-color);
+  color: var(--first-color);
   line-height: 0.8;
+  text-shadow: 0 20px 25px var(--white-color);
 }
 
 .home__scroll {
@@ -252,7 +241,7 @@ img {
           writing-mode: vertical-lr;
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
-  color: var(--white-color);
+  color: var(--first-color);
 }
 
 .home__img {

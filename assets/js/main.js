@@ -45,16 +45,6 @@ function scrollActive() {
   });
 }
 
-/*===== SCRATCH REVEAL =====*/
-const home = document.querySelectorAll('.home')[0];
-home.addEventListener('mouseover', function (event) {
-  const underImg = document.createElement('span');
-  underImg.className = 'home__bubble';
-  underImg.style.left = 100 + event.offsetX + 'px';
-  underImg.style.top = 100 + event.offsetY + 'px';
-  home.appendChild(underImg);
-});
-
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: 'top',
@@ -68,11 +58,10 @@ sr.reveal('.home__title', {});
 sr.reveal('.home__scroll', { delay: 200 });
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img', { delay: 500 });
+sr.reveal('.about__img', { delay: 400 });
 sr.reveal('.about__subtitle', { delay: 300 });
-sr.reveal('.about__profession', { delay: 400 });
-sr.reveal('.about__text', { delay: 500 });
-sr.reveal('.about__social-icon', { delay: 600, interval: 200 });
+sr.reveal('.about__text', { delay: 400 });
+sr.reveal('.about__social-icon', { delay: 500, interval: 200 });
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {});
