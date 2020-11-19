@@ -50,10 +50,6 @@
       grid-template-rows: 1.7fr 1fr;
       row-gap: 0;
     }
-    &__img {
-      width: 524px;
-      right: 10%;
-    }
   }
 
   .about {
@@ -96,5 +92,10 @@
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
+  }
+  .home {
+    &__title {
+      align-self: end;
+    }
   }
 }

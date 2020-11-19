@@ -4,6 +4,9 @@
     row-gap: 1rem;
     justify-items: center;
   }
+  &__description {
+    text-align: center;
+  }
   &__content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
