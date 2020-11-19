@@ -45,6 +45,17 @@ function scrollActive() {
   });
 }
 
+/*===== SCRATCH REVEAL =====*/
+const home = document.querySelectorAll('.home')[0];
+home.addEventListener('mouseover', function (event) {
+  const underImg = document.createElement('span');
+  underImg.className = 'home__bubble';
+  console.log('mouseover', underImg);
+  underImg.style.left = event.offsetX + 'px';
+  underImg.style.right = event.offsetY + 'px';
+  home.appendChild(underImg);
+});
+
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: 'top',

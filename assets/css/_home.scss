@@ -1,16 +1,28 @@
 .home {
   position: relative;
   overflow: hidden;
-  background: url('../img/home.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: var(--first-color);
+  // background: url('../img/home.jpg');
+
+  &__bubble {
+    display: block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: url('../img/home.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    pointer-events: none;
+    border-radius: 50%;
+  }
 
   &__container {
     height: calc(100vh - var(--header-height));
     width: 100%;
     row-gap: 5rem;
+    background-color: var(--first-color);
   }
   &__title {
     align-self: flex-end;
