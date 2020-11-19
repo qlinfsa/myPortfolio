@@ -8,7 +8,7 @@
 
 /*===== Colors =====*/
 :root {
-  --first-color: #1851c0;
+  --first-color: indianred;
   --white-color: #ebf1f6;
   --dark-color: #0e2431;
   --text-color: #697477;
@@ -206,13 +206,29 @@ img {
 
 .home {
   position: relative;
-  background-color: var(--first-color);
   overflow: hidden;
+  background-color: var(--first-color);
+}
+
+.home__bubble {
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: url("../img/home.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  pointer-events: none;
+  border-radius: 50%;
 }
 
 .home__container {
   height: calc(100vh - var(--header-height));
+  width: 100%;
   row-gap: 5rem;
+  background-color: var(--first-color);
 }
 
 .home__title {

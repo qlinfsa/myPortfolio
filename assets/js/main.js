@@ -45,6 +45,17 @@ function scrollActive() {
   });
 }
 
+/*===== SCRATCH REVEAL =====*/
+const home = document.querySelectorAll('.home')[0];
+home.addEventListener('mouseover', function (event) {
+  const underImg = document.createElement('span');
+  underImg.className = 'home__bubble';
+  console.log('mouseover', underImg);
+  underImg.style.left = event.offsetX + 'px';
+  underImg.style.right = event.offsetY + 'px';
+  home.appendChild(underImg);
+});
+
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: 'top',
@@ -56,7 +67,6 @@ const sr = ScrollReveal({
 /*SCROLL HOME*/
 sr.reveal('.home__title', {});
 sr.reveal('.home__scroll', { delay: 200 });
-sr.reveal('.home__img', { origin: 'right', delay: 400 });
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img', { delay: 500 });
