@@ -11,6 +11,7 @@ const showMenu = (toggleId, navId) => {
 };
 showMenu('nav-toggle', 'nav-menu');
 
+
 /*===== CLICK ON LINK AND REMOVE MENU =====*/
 const navLink = document.querySelectorAll('.nav__link');
 
@@ -19,6 +20,7 @@ function linkAction() {
   navMenu.classList.remove('show');
 }
 navLink.forEach((n) => n.addEventListener('click', linkAction));
+
 
 /*===== SCROLL SECTIONS ACTIVE LINK =====*/
 const sections = document.querySelectorAll('section[id]');
@@ -44,6 +46,7 @@ function scrollActive() {
     }
   });
 }
+
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
