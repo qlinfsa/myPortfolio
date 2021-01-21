@@ -1,4 +1,4 @@
-/*===== MENU SHOW =====*/
+/*===== TOGGLE MENU =====*/
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId);
@@ -11,7 +11,8 @@ const showMenu = (toggleId, navId) => {
 };
 showMenu('nav-toggle', 'nav-menu');
 
-/*===== REMOVE MENU MOBILE =====*/
+
+/*===== CLICK ON LINK AND REMOVE MENU =====*/
 const navLink = document.querySelectorAll('.nav__link');
 
 function linkAction() {
@@ -19,6 +20,7 @@ function linkAction() {
   navMenu.classList.remove('show');
 }
 navLink.forEach((n) => n.addEventListener('click', linkAction));
+
 
 /*===== SCROLL SECTIONS ACTIVE LINK =====*/
 const sections = document.querySelectorAll('section[id]');
@@ -44,6 +46,7 @@ function scrollActive() {
     }
   });
 }
+
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
