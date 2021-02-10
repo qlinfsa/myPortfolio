@@ -103,7 +103,7 @@ img {
 }
 
 /*===== LAYOUT =====*/
-.bd-grid {
+.grid {
   max-width: 1024px;
   display: grid;
   grid-template-columns: 100%;
@@ -112,7 +112,7 @@ img {
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
-.l-header {
+.header {
   width: 100%;
   position: fixed;
   top: 0;

@@ -115,7 +115,7 @@ img {
 }
 
 /*===== LAYOUT =====*/
-.bd-grid {
+.grid {
   max-width: 1024px;
   display: -ms-grid;
   display: grid;
@@ -127,7 +127,7 @@ img {
   margin-right: var(--mb-2);
 }
 
-.l-header {
+.header {
   width: 100%;
   position: fixed;
   top: 0;
@@ -491,7 +491,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .bd-grid {
+  .grid {
     padding: 0 2rem;
   }
   body {
@@ -573,7 +573,7 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
-  .bd-grid {
+  .grid {
     margin-left: auto;
     margin-right: auto;
   }
