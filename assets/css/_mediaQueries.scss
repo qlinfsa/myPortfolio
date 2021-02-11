@@ -57,7 +57,7 @@
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
       text-align: initial;
-      padding: 4rem 2rem;
+      padding: 0 2rem;
     }
     &__img {
       width: 200px;
@@ -82,7 +82,7 @@
 
   .footer {
     &__container {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       justify-items: center;
     }
   }
