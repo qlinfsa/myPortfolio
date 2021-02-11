@@ -45,5 +45,8 @@
     width: 2px;
     background-color: var(--first-color);
     transform: translate(5px, -4px);
+    &_stacked {
+      height: 95%;
+    }
   }
 }

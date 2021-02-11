@@ -72,11 +72,23 @@
     }
   }
 
+  .resume {
+    &__line {
+      height: 85%;
+      &_stacked {
+        height: 91%;
+      }
+    }
+  }
+
   .projects {
     &__container {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 1fr);
       column-gap: 2rem;
+    }
+    &__link a {
+      font-size: var(--small-font-size);
     }
   }
 
@@ -100,6 +112,14 @@
     &__scroll {
       align-self: flex-end;
       padding-bottom: var(--mb-4);
+    }
+  }
+  .resume {
+    &__line {
+      height: 80%;
+      &_stacked {
+        height: 90%;
+      }
     }
   }
 }
