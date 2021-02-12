@@ -1,29 +1,28 @@
 /*===== TOGGLE MENU =====*/
-const showMenu = (toggleId, navId) => {
+const showMenu = (toggleId, menuId) => {
   const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId);
+    menu = document.getElementById(menuId);
 
-  if (toggle && nav) {
+  if (toggle && menu) {
     toggle.addEventListener('click', () => {
-      nav.classList.toggle('show');
+      menu.classList.toggle('show');
     });
   }
 };
 showMenu('nav-toggle', 'nav-menu');
 
-
-/*===== CLICK ON LINK AND REMOVE MENU =====*/
+/*===== CLICK LINK AND REMOVE MENU =====*/
 const navLink = document.querySelectorAll('.nav__link');
 
 function linkAction() {
   const navMenu = document.getElementById('nav-menu');
   navMenu.classList.remove('show');
 }
+
 navLink.forEach((n) => n.addEventListener('click', linkAction));
 
-
-/*===== SCROLL SECTIONS ACTIVE LINK =====*/
-const sections = document.querySelectorAll('section[id]');
+/*===== SCROLL SECTIONS TO ACTIVATE LINK =====*/
+const sections = document.querySelectorAll('section');
 
 window.addEventListener('scroll', scrollActive);
 
@@ -37,6 +36,7 @@ function scrollActive() {
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       document
+        // grab all anchor that with the current sectionId
         .querySelector('.nav__menu a[href*=' + sectionId + ']')
         .classList.add('active');
     } else {
@@ -46,7 +46,6 @@ function scrollActive() {
     }
   });
 }
-
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({

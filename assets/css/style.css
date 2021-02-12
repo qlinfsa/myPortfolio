@@ -92,7 +92,7 @@ img {
   padding: 3rem 0;
 }
 
-.section-title {
+.section__title {
   position: relative;
   font-size: var(--medium-font-size);
   color: var(--dark-color);
@@ -100,7 +100,7 @@ img {
   text-align: center;
 }
 
-.section-title::after {
+.section__title::after {
   position: absolute;
   content: '';
   width: 32px;
@@ -170,10 +170,6 @@ img {
 .nav__link {
   position: relative;
   color: var(--dark-color);
-}
-
-.nav__link:hover {
-  color: var(--first-color);
 }
 
 .nav__logo {
@@ -502,10 +498,10 @@ img {
   .section {
     padding-top: 4rem;
   }
-  .section-title {
+  .section__title {
     margin-bottom: 3rem;
   }
-  .section-title::after {
+  .section__title::after {
     width: 64px;
     top: 3rem;
   }

@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   &__menu {
     @media screen and (max-width: 768px) {
       position: fixed;
@@ -23,10 +22,6 @@
   &__link {
     position: relative;
     color: var(--dark-color);
-
-    &:hover {
-      color: var(--first-color);
-    }
   }
   &__logo {
     color: var(--white-color);
