@@ -1,13 +1,13 @@
 .footer {
   background-color: var(--dark-color);
-
+  padding-bottom: 3rem;
   &__container {
     row-gap: 2rem;
   }
   &__title {
     font-size: var(--normal-font-size);
     color: var(--white-color);
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--margin-2);
   }
   &__link {
     padding: 0.25rem 0;
@@ -18,7 +18,7 @@
   }
   &__social {
     font-size: 1.4rem;
-    margin-right: var(--mb-1);
+    margin-right: var(--margin-1);
 
     &:hover {
       color: var(--first-color);

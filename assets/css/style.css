@@ -32,10 +32,10 @@
 
 /*===== Margins =====*/
 :root {
-  --mb-1: 0.5rem;
-  --mb-2: 1rem;
-  --mb-3: 1.5rem;
-  --mb-4: 2rem;
+  --margin-1: 0.5rem;
+  --margin-2: 1rem;
+  --margin-3: 1.5rem;
+  --margin-4: 2rem;
 }
 
 /*===== z index =====*/
@@ -96,7 +96,7 @@ img {
   position: relative;
   font-size: var(--medium-font-size);
   color: var(--dark-color);
-  margin: var(--mb-4) 0;
+  margin: var(--margin-4) 0;
   text-align: center;
 }
 
@@ -121,8 +121,8 @@ img {
       grid-template-columns: 100%;
   grid-column-gap: 2rem;
   width: calc(100% - 2rem);
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
+  margin-left: var(--margin-2);
+  margin-right: var(--margin-2);
 }
 
 .header {
@@ -164,7 +164,7 @@ img {
 }
 
 .nav__item {
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--margin-4);
 }
 
 .nav__link {
@@ -264,16 +264,16 @@ img {
 .about__subtitle {
   font-size: var(--medium-font-size);
   color: var(--first-color);
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--margin-4);
 }
 
 .about__text {
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--margin-4);
 }
 
 .about__social-icon {
   font-size: 1.4rem;
-  margin-right: var(--mb-1);
+  margin-right: var(--margin-1);
 }
 
 .about__social-icon:hover {
@@ -286,14 +286,14 @@ img {
 
 .skills__subtitle {
   color: var(--first-color);
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--margin-3);
 }
 
 .skills__name {
   display: inline-block;
   font-size: var(--small-font-size);
-  margin-right: var(--mb-2);
-  margin-bottom: var(--mb-3);
+  margin-right: var(--margin-2);
+  margin-bottom: var(--margin-3);
   padding: 0.25rem 0.5rem;
   background-color: var(--white-color);
   border-radius: 0.25rem;
@@ -325,10 +325,6 @@ img {
   color: var(--first-color);
 }
 
-.resume__university, .resume__description {
-  display: block;
-}
-
 .resume__year, .resume__place {
   text-align: right;
 }
@@ -339,7 +335,7 @@ img {
 
 .resume__rounder {
   position: relative;
-  display: inline-block;
+  display: block;
   width: 12px;
   height: 12px;
   background-color: var(--first-color);
@@ -450,7 +446,7 @@ img {
 
 .contact__text {
   display: inline-block;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--margin-2);
 }
 
 .contact i {
@@ -459,6 +455,7 @@ img {
 
 .footer {
   background-color: var(--dark-color);
+  padding-bottom: 3rem;
 }
 
 .footer__container {
@@ -468,7 +465,7 @@ img {
 .footer__title {
   font-size: var(--normal-font-size);
   color: var(--white-color);
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--margin-2);
 }
 
 .footer__link {
@@ -481,7 +478,7 @@ img {
 
 .footer__social {
   font-size: 1.4rem;
-  margin-right: var(--mb-1);
+  margin-right: var(--margin-1);
 }
 
 .footer__social:hover {
@@ -514,7 +511,7 @@ img {
     display: flex;
   }
   .nav__item {
-    margin-left: var(--mb-4);
+    margin-left: var(--margin-4);
     margin-bottom: 0;
   }
   .nav__toggle {
@@ -572,6 +569,9 @@ img {
   .projects__link a {
     font-size: var(--small-font-size);
   }
+  .footer {
+    padding-bottom: 4rem;
+  }
   .footer__container {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
@@ -592,7 +592,7 @@ img {
   .home__scroll {
     -ms-flex-item-align: end;
         align-self: flex-end;
-    padding-bottom: var(--mb-4);
+    padding-bottom: var(--margin-4);
   }
   .resume__line {
     height: 80%;

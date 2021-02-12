@@ -27,10 +27,10 @@
 }
 /*===== Margins =====*/
 :root {
-  --mb-1: 0.5rem;
-  --mb-2: 1rem;
-  --mb-3: 1.5rem;
-  --mb-4: 2rem;
+  --margin-1: 0.5rem;
+  --margin-2: 1rem;
+  --margin-3: 1.5rem;
+  --margin-4: 2rem;
 }
 
 /*===== z index =====*/
@@ -83,7 +83,7 @@ img {
     position: relative;
     font-size: var(--medium-font-size);
     color: var(--dark-color);
-    margin: var(--mb-4) 0;
+    margin: var(--margin-4) 0;
     text-align: center;
 
     &::after {
@@ -107,8 +107,8 @@ img {
   grid-template-columns: 100%;
   grid-column-gap: 2rem;
   width: calc(100% - 2rem);
-  margin-left: var(--mb-2);
-  margin-right: var(--mb-2);
+  margin-left: var(--margin-2);
+  margin-right: var(--margin-2);
 }
 .header {
   width: 100%;

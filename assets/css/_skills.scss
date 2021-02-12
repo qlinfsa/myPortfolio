@@ -4,13 +4,13 @@
   }
   &__subtitle {
     color: var(--first-color);
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--margin-3);
   }
   &__name {
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-right: var(--mb-2);
-    margin-bottom: var(--mb-3);
+    margin-right: var(--margin-2);
+    margin-bottom: var(--margin-3);
     padding: 0.25rem 0.5rem;
     background-color: var(--white-color);
     border-radius: 0.25rem;

@@ -26,7 +26,7 @@
       display: flex;
     }
     &__item {
-      margin-left: var(--mb-4);
+      margin-left: var(--margin-4);
       margin-bottom: 0;
     }
     &__toggle {
@@ -93,6 +93,7 @@
   }
 
   .footer {
+    padding-bottom: 4rem;
     &__container {
       grid-template-columns: repeat(2, 1fr);
       justify-items: center;
@@ -111,7 +112,7 @@
     }
     &__scroll {
       align-self: flex-end;
-      padding-bottom: var(--mb-4);
+      padding-bottom: var(--margin-4);
     }
   }
   .resume {
